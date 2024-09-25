@@ -31,8 +31,8 @@ public class conta {
 	    public void consulta() {
 	        consultas++;
 	        if (consultas % 5 == 0) {
-	            saldo -= 0.59; // desconto
-	            System.out.println("Cobrança de R$0.59 pela consulta.");
+	            saldo -= 0.10; // desconto
+	            System.out.println("Cobrança de R$0.10 pela consulta.");
 	        }
 	        System.out.printf("Saldo: R$%.2f%n", saldo);
 	    }
